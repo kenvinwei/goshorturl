@@ -3,6 +3,10 @@
     Golang 实现非官方短链接(Sina、Baidu)程序
 # Usage
 ```
+    go get github.com/kenvinwei/goshorturl
+```
+# Example
+```
 baidu:
     shorturl.Make("baidu", "https://996.icu/#/zh_CN")
 sina:
